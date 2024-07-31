@@ -25,6 +25,9 @@ export default function Home() {
         <Link href="/about" color="secondary" component={NextLink}>
           Go to the about page
         </Link>
+        <Link href="/student" color="secondary" component={NextLink}>
+          Go to the Student page
+        </Link>
         <ProTip />
         <Copyright />
       </Box>

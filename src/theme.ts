@@ -19,6 +19,7 @@ const theme = createTheme({
       // This is green.A700 as hex.
       main: "#003B49",
     },
+  
     error: {
       // This is green.A700 as hex.
       main: "#DC0000",
@@ -28,7 +29,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: "Roboto, sans-serif",
+    fontFamily: roboto.style.fontFamily,
   },
 });
 
